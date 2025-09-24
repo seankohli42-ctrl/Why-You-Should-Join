@@ -62,7 +62,7 @@ export default function Home() {
           </div>
         </section>
         <section className="py-12 px-6">
-          <h2 className="text-2xl font-bold text-left">Our ecosystem&apos;s portfolio (partial),</h2>
+          <h2 className="text-2xl font-bold text-left">Ecosystem snapshot,</h2>
           <p className="mt-3 opacity-85 max-w-2xl text-left">
             we put our money where our mouth is.
           </p>
