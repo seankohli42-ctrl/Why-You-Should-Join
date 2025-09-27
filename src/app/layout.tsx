@@ -5,9 +5,9 @@ import "./globals.css";
 const lato = Lato({ subsets: ["latin"], weight: ["300", "400", "700", "900"], variable: "--font-lato" });
 
 export const metadata: Metadata = {
-  title: "Why You Should Join",
-  description: "A venture firm for ambitious builders.",
-  metadataBase: new URL("https://whyysj.local"),
+  title: "Sean Kohli",
+  description: "Portfolio and projects by Sean Kohli.",
+  metadataBase: new URL("https://seankohli.local"),
   icons: {
     icon: "/icon.svg",
     shortcut: "/icon.svg",
