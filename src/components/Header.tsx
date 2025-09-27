@@ -3,7 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 
-const navItems: { href: string; label: string }[] = [];
+const navItems: { href: string; label: string }[] = [
+  { href: "/", label: "Home" },
+  { href: "/portfolio", label: "Portfolio" },
+  { href: "#newsletter", label: "Newsletter" },
+  { href: "#podcast", label: "Podcast" },
+];
 
 export default function Header() {
   const pathname = usePathname();
