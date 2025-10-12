@@ -16,7 +16,7 @@ type Company = {
 };
 
 const companies: Company[] = [
-  { name: "AIUC", sector: "AI Insurance", blurb: "AI agent standards and insurance to unlock enterprise adoption.", url: "https://aiuc.com", vcs: [{ name: "Friedman & Gross (NFDG Ventures)", url: "https://nat.org" }] },
+  { name: "AIUC", sector: "AI Insurance", blurb: "AI agent standards and insurance for enterprise adoption.", url: "https://aiuc.com", vcs: [{ name: "Friedman & Gross (NFDG Ventures)", url: "https://nat.org" }] },
   { name: "Clarion", sector: "Healthcare AI", blurb: "Conversational AI for automating patient communications.", url: "https://www.clarionhealth.com", vcs: [{ name: "Accel", url: "https://www.accel.com" }] },
   { name: "Corridor", sector: "Developer Tools", blurb: "AI-powered development tools for modern engineering teams.", url: "https://corridor.dev", vcs: [{ name: "Conviction", url: "https://www.conviction.com" }] },
   { name: "Flint", sector: "Marketing Tech", blurb: "Autonomous website platform for launching landing pages.", url: "https://www.tryflint.com", vcs: [{ name: "Accel", url: "https://www.accel.com" }] },
