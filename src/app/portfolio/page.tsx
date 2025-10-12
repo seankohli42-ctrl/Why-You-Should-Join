@@ -18,7 +18,7 @@ export default function PortfolioPage() {
   return (
     <div className="min-h-screen bg-white text-black">
       <Header />
-      <main className="mx-auto max-w-5xl px-6 py-16">
+      <main className="mx-auto max-w-5xl px-6 py-12">
         <h1 className="text-4xl font-black tracking-tight">Companies we’re excited about</h1>
         <p className="mt-4 opacity-85 max-w-2xl">
           A curated, conviction-driven portfolio. We prioritize market depth, product strategy, early traction
