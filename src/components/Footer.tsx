@@ -4,7 +4,7 @@ export default function Footer() {
     <footer className="w-full border-t border-black">
       <div className="mx-auto max-w-5xl px-6 py-10 text-sm">
         <div className="flex justify-between items-center">
-          <p className="opacity-80">San Francisco</p>
+          <span className="opacity-80">San Francisco</span>
           <a href="mailto:generalpartners@wysj.capital" className="opacity-80 hover:opacity-100">
             generalpartners@wysj.capital
           </a>
