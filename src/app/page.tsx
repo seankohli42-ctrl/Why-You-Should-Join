@@ -49,15 +49,15 @@ export default function Home() {
           <div className="mt-6">
             <h3 className="text-lg font-semibold mb-4 text-left">Season 1</h3>
             <div className="flex flex-col sm:flex-row gap-4 mb-6">
-              <a className="px-6 py-3 border border-black hover:bg-black hover:text-white text-center" href="https://www.youtube.com/@oneto100podcast" target="_blank">YouTube</a>
-              <a className="px-6 py-3 border border-black hover:bg-black hover:text-white text-center" href="https://open.spotify.com/show/70NOWtWDY995C8qDqojxGw?si=b13d4cc4756342d0" target="_blank">Spotify</a>
-              <a className="px-6 py-3 border border-black hover:bg-black hover:text-white text-center" href="https://podcasts.apple.com/us/podcast/1-to-100-hypergrowth-startups-worth-joining/id1762756034" target="_blank">Apple Podcasts</a>
+              <a className="px-6 py-3 border border-black hover:bg-black hover:text-white text-center" href="https://www.youtube.com/@oneto100podcast" target="_blank" rel="noopener noreferrer">YouTube</a>
+              <a className="px-6 py-3 border border-black hover:bg-black hover:text-white text-center" href="https://open.spotify.com/show/70NOWtWDY995C8qDqojxGw?si=b13d4cc4756342d0" target="_blank" rel="noopener noreferrer">Spotify</a>
+              <a className="px-6 py-3 border border-black hover:bg-black hover:text-white text-center" href="https://podcasts.apple.com/us/podcast/1-to-100-hypergrowth-startups-worth-joining/id1762756034" target="_blank" rel="noopener noreferrer">Apple Podcasts</a>
             </div>
             <h3 className="text-lg font-semibold mb-4 text-left">Season 2</h3>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a className="px-6 py-3 border border-black hover:bg-black hover:text-white text-center" href="https://www.youtube.com/@WhyYouShouldJoin" target="_blank">YouTube</a>
-              <a className="px-6 py-3 border border-black hover:bg-black hover:text-white text-center" href="https://open.spotify.com/show/6a5VCGnX7mNJ4ghuglhnFp?si=71838cb106dc45f9" target="_blank">Spotify</a>
-              <a className="px-6 py-3 border border-black hover:bg-black hover:text-white text-center" href="https://podcasts.apple.com/us/podcast/the-why-you-should-join-podcast/id1828246278" target="_blank">Apple Podcasts</a>
+              <a className="px-6 py-3 border border-black hover:bg-black hover:text-white text-center" href="https://www.youtube.com/@WhyYouShouldJoin" target="_blank" rel="noopener noreferrer">YouTube</a>
+              <a className="px-6 py-3 border border-black hover:bg-black hover:text-white text-center" href="https://open.spotify.com/show/6a5VCGnX7mNJ4ghuglhnFp?si=71838cb106dc45f9" target="_blank" rel="noopener noreferrer">Spotify</a>
+              <a className="px-6 py-3 border border-black hover:bg-black hover:text-white text-center" href="https://podcasts.apple.com/us/podcast/the-why-you-should-join-podcast/id1828246278" target="_blank" rel="noopener noreferrer">Apple Podcasts</a>
             </div>
           </div>
         </section>
