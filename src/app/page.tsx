@@ -17,14 +17,14 @@ type Company = {
 
 const companies: Company[] = [
   { name: "AIUC", sector: "AI Insurance", blurb: "AI agent standards and insurance to unlock enterprise adoption.", url: "https://aiuc.com", vcs: [{ name: "Friedman & Gross (NFDG Ventures)", url: "https://nat.org" }] },
-  { name: "Clarion", sector: "Healthcare AI", blurb: "Conversational AI for automating patient communications.", url: "https://www.clarionhealth.com", vcs: [{ name: "Accel", url: "https://www.accel.com" }] },
-  { name: "Corridor", sector: "Security", blurb: "AI-native security platform that finds and fixes code vulnerabilities autonomously.", url: "https://corridor.dev", vcs: [{ name: "Conviction", url: "https://www.conviction.com" }] },
-  { name: "Flint", sector: "Web Infrastructure", blurb: "Autonomous website platform for launching landing pages.", url: "https://www.tryflint.com", vcs: [{ name: "Accel", url: "https://www.accel.com" }] },
+  { name: "Clarion", sector: "HEALTHTECH", blurb: "Conversational AI for automating patient communications.", url: "https://www.clarionhealth.com", vcs: [{ name: "Accel", url: "https://www.accel.com" }] },
+  { name: "Corridor", sector: "AI SECURITY", blurb: "AI-native security platform that finds and fixes code vulnerabilities autonomously.", url: "https://corridor.dev", vcs: [{ name: "Conviction", url: "https://www.conviction.com" }] },
+  { name: "Proximal", sector: "AI Programming", blurb: "Autonomous AI coding agents for software engineering.", url: "https://proximal.ai", vcs: [{ name: "General Catalyst", url: "https://www.generalcatalyst.com" }] },
   { name: "Judgment Labs", sector: "AI Infrastructure", blurb: "AI agent monitoring and evaluation platform for production.", url: "https://judgmentlabs.ai", vcs: [{ name: "Lightspeed", url: "https://lsvp.com" }] },
-  { name: "Sapien", sector: "AI/Finance", blurb: "AI agents that drive your bottom line for finance teams.", url: "https://www.getsapien.com/", vcs: [{ name: "General Catalyst", url: "https://www.generalcatalyst.com" }] },
-  { name: "VibeCode", sector: "Developer Tools", blurb: "AI-powered mobile app builder for rapid development.", url: "https://www.vibecodeapp.com/", vcs: [{ name: "Alexis Ohanian (776)", url: "https://sevensevensix.com" }] },
-  { name: "Vigil Labs", sector: "Quantitative Trading", blurb: "Applied research lab building proprietary AI systems for trading.", url: "https://vigillabs.ai", vcs: [{ name: "Pantera Capital", url: "https://panteracapital.com" }, { name: "Lux Capital", url: "https://www.luxcapital.com" }] },
-  { name: "Voltai", sector: "AI/Semiconductors", blurb: "Foundational AI for semiconductors and electronics engineering.", url: "https://www.voltai.com", vcs: [{ name: "Sequoia Capital", url: "https://www.sequoiacap.com" }, { name: "General Catalyst", url: "https://www.generalcatalyst.com" }] },
+  { name: "Sapien", sector: "AI Finance", blurb: "AI agents that drive your bottom line for finance teams.", url: "https://www.getsapien.com/", vcs: [{ name: "General Catalyst", url: "https://www.generalcatalyst.com" }] },
+  { name: "Treehouse Labs", sector: "Generative AI", blurb: "AI-native environment that builds interactive 3D worlds.", url: "https://treehouselabs.ai", vcs: [{ name: "Conviction", url: "https://www.conviction.com" }] },
+  { name: "VibeCode", sector: "Developer Tools", blurb: "AI builder for app and web developers using natural language.", url: "https://www.vibecodeapp.com/", vcs: [{ name: "Alexis Ohanian (776)", url: "https://sevensevensix.com" }] },
+  { name: "Voltai", sector: "AI Semiconductors", blurb: "Foundational AI for semiconductors and electronics engineering.", url: "https://www.voltai.com", vcs: [{ name: "Sequoia Capital", url: "https://www.sequoiacap.com" }] },
 ];
 
 export default function Home() {
